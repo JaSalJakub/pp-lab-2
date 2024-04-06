@@ -10,12 +10,8 @@ public class SredniaOcen {
         int liczbaOcen = 0;        
         for (String ocenaStr : ocenyArray) {
             try {               
-                double ocena = Double.parseDouble(ocenaStr);
-                
-                
-                sumaOcen += ocena;
-                
-                
+                double ocena = Double.parseDouble(ocenaStr);               
+                sumaOcen += ocena;                                
                 liczbaOcen++;
             } catch (NumberFormatException e) {
                 
