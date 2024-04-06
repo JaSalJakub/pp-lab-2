@@ -13,8 +13,7 @@ public class SredniaOcen {
                 double ocena = Double.parseDouble(ocenaStr);               
                 sumaOcen += ocena;                                
                 liczbaOcen++;
-            } catch (NumberFormatException e) {
-                
+            } catch (NumberFormatException e) {                
                 System.out.println("Błąd: " + ocenaStr + " nie jest liczbą. Ignoruję tę wartość.");
             }
         }
