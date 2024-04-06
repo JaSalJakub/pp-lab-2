@@ -14,7 +14,7 @@ public class SredniaOcen {
                 sumaOcen += ocena;                                
                 liczbaOcen++;
             } catch (NumberFormatException e) {                
-                System.out.println("Błąd: " + ocenaStr + " nie jest liczbą. Ignoruję tę wartość.");
+                System.out.println("Błąd: " + ocenaStr + " nie jest liczbą.");
             }
         }
         double srednia = sumaOcen / liczbaOcen;       
